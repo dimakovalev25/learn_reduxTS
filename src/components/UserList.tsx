@@ -15,6 +15,7 @@ const UserList: FC = () => {
 
     useEffect(() => {
         // dispatch(fetchUsers() as any)
+        // dispatch(fetchUsers() as any)
         fetchUsers()
 
     }, [])
